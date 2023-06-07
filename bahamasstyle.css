@@ -1,0 +1,33 @@
+h1{
+	font-family: cursive;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 26px;
+	color: #286BCB;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 20px;
+	background-color: gold;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: lightblue;
+}
+
+img{
+	width: 500px;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	transition: 1s;
+}
+
+img:hover{
+	transform: scale(1.5);
+}
